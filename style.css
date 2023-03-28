@@ -1,0 +1,24 @@
+body {
+    padding: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inputHolder, #actionBox {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input, select, button {
+    padding: 10px;
+}
