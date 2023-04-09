@@ -22,3 +22,11 @@ h1 {
 input, select, button {
     padding: 10px;
 }
+
+td:hover {
+    background-color: #902323 !important;
+    color: #fff !important;
+    transform: scale(1.2, 1.2);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
