@@ -41,6 +41,7 @@ function checkTable() {
   
           for (var j = 1; j <= input.value; j++) {
             answer = i / j;
+            answer = answer.toFixed(2);
             tableHTML += `<td>${i} / ${j} = ${answer}</td>`;
           }
   
